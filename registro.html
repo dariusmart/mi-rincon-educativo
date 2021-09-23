@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>REGISTRO DE ESTUDIANTES</title>
+<script language="javascript" type="text/javascript" src="funciones.js">
+</script>
+<link rel="stylesheet" type="text/css" href="estilo.css" />
+<style type="text/css">
+body {
+	background-color: #CCC;
+}
+</style>
+</head>
+<body>
+<form name="registro" action="recepcion.html" method="get" onsubmit="return validar(registro);">
+<font face="Arial, Helvetica, sans-serif">
+<table width="1000" align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+         <td width="758" height="168" align="left" valign="bottom">
+         <p class="T1">REGISTRO DE ALUMNOS</p>
+         </td>
+         <td width="236" align="center"><img src="imagenes/normal.jpg" width="141" height="125" />
+         <input type="file" name="foto" accept="image/*" />
+      </td>
+         
+    </tr>
+  </table>
+<table width="1000"  align="center"border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="46" colspan="3" align="justify" bgcolor="#0099FF"><h4><samp class="T2">INTRUCCIONES:</samp> complete cada campo vacio del siguiete formulario con la informacion correcta para realizar su inscripcion a la institucion.</h4></td>
+    </tr>
+  <tr>
+    <td height="46" colspan="3" align="left"><fieldset>
+    <legend class="D"> 1.- DATOS DEL ALUMNO</legend><p align="center">
+    Nombre <input type="text" name="Nombre" placeholder="nombre" autofocus="autofocus" id="caja" value="mayusculas"  onclick="mayusculas(registro);"/>
+    Apellido Paterno <input type="text" name="ApellidoPaterno" placeholder="Apellido pat" id="caja"  value="mayusculas"  onclick="mayusculas(registro);"/>
+    Apellido Materno <input type="text" name="ApellidoMaterno" placeholder="Apellido mat" id="caja"  value="mayusculas"  onclick="mayusculas(registro);"/>
+      </p>
+      <p align="center">
+      Fecha de Nacimiento <input type="date" name="fecha" id="caja" required="required"/> 
+       Sexo <input type="radio" name="sexo" value="masculino" id="opmasc" required="required"/>
+            <label for="opmasc">Masculino</label>
+            <input type="radio" name="sexo" value="femenino" id="opfem"/>
+            <label for="opfem">Femenino</label>
+       Estado Civil
+            <select name="ECivil" id="caja" >
+            <option ></option>
+      <option value="1" >soltero</option>
+      <option value="2">casado</option>
+      <option value="3">viudo</option>
+      <option value="4">divorciado</option>
+      <option value="5">union libre</option>
+      <option value="6" selected >selecciona...</option>
+      </select>
+      </p>
+    </fieldset>
+    <fieldset>
+    <legend class="D">2.-DATOS DEL DOMICILIO</legend><p align="center">
+    Estado <input type="text" name="Estado" placeholder="Estado" id="caja"  value="mayusculas"  onclick="mayusculas(registro);"/>
+    Municipio <input type="text" name="Municipio" placeholder="Municipio" id="caja"  value="mayusculas"  onclick="mayusculas(registro);"/>
+    Localidad <input type="text" name="Localidad" placeholder="Localidad" id="caja"  value="mayusculas"  onclick="mayusculas(registro);"/>
+    C.P. <input type="number" name="CodigoPostal" placeholder="Codigo Postal" id="caja" />
+    <p align="center">
+    Colonia <input type="text" name="Colonia" placeholder="Colonia" id="caja" required="required"  value="mayusculas"  onclick="mayusculas(registro);"/>
+    Calle <input type="text" name="calle" placeholder="Calle" id="caja" required="required"  value="mayusculas"  onclick="mayusculas(registro);"/>
+    No.int <input type="number" name="no.int" placeholder="No.int" id="caja"  required="required"/>
+    </p>
+    <p align="center">
+    Telefono <input type="number" name="telefono" placeholder="Telefono" id="caja" required="required"/>
+    Correo Electronico <input type="email" name="correo"placeholder="E-mail" size="30" id="caja" required="required"  value="mayusculas"  onclick="mayusculas(registro);"/>
+    </p>
+    </fieldset>
+    <fieldset>
+    <legend class="D">3.- DATOS DE INGRESO</legend><p align="center">
+    Matricula <input type="number" name="matricula" placeholder="Matricula" id="caja" />
+    Carrera
+    <select name="carrera" id="caja">
+      <option value="1" >Ingeniería en Sistemas Computacionales</option>
+      <option value="2">Ingeniería en Agronomía</option>
+      <option value="3">Licenciatura en Biología</option>
+      <option value="4"> Ingeniería en Gestión Empresarial</option>
+      <option value="5" selected >selecciona...</option>
+      </select >
+      Modalidad
+      <select name="Mod" id="caja">
+      <option value="1" >Escolarizado</option>
+      <option value="2">Semiescolarizado</option>
+      <option value="3" selected >selecciona...</option>
+      </select >
+      <p align="center">
+      Sede
+      <select name="Sede" id="caja">
+      <option value="1" >Huejutla de Reyes,Hgo</option>
+      <option value="2">Molango de Escamilla,Hgo</option>
+      <option value="3">San Felipe Orizatlan,Hgo</option>
+      <option value="4" selected >selecciona...</option>
+      </select >
+      Promedio <input type="number" name="Promedio" placeholder="Promedio" id="caja" required="required"/>
+       Estatus
+      <select name="Estatus" id="caja">
+      <option value="1" >Inscrito</option>
+      <option value="2">No inscrito</option>
+      <option value="3">baja</option>
+      <option value="4">egresado</option>
+      <option value="5" selected >selecciona...</option>
+      </select>
+      </p>
+      <p align="center">
+      Escuela de procedencia <input type="escuela" name="Escuela" placeholder="Esc. de procedencia" size="70" id="caja"  required="required"  value="mayusculas"  onclick="mayusculas(registro);"/>
+      </p>
+    </legend>
+    </fieldset>
+    </td>
+    </tr>
+  <tr>
+    <td width="315" height="77" align="center">
+      <button type="reset" id="boton">
+        <img src="sitiopersonal/imagenes/419711.png"width="40" height="40" style="vertical-align: middle" />LIMPIAR REGISTRO </button>    
+      
+      </td>
+    <td width="331" height="77" colspan="-1" align="center">
+      <button type="button" onclick="alert('Faltan campos por llenar');" id="boton">
+        <img src="sitiopersonal/imagenes/aleerta.png" width="40" height="40" style="vertical-align: middle"/>MENSAJE</button>
+      </td>
+    <td width="342" height="77" colspan="-1" align="center">
+      <button type="submit" id="boton">
+        <img src="sitiopersonal/imagenes/png-transparent.png" width="40" height="40" style="vertical-align: middle"/>REGISTRAR</button>
+         </td>
+         </tr>
+</table>
+</form>
+</body>
+</html>
