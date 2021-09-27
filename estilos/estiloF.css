@@ -1,9 +1,9 @@
 #registrousuario{
-	background: transparent url("D:/Documents/Sublime Text/form/imagenes/473.png") no-repeat scroll left bottom;
+	background: transparent url("D:/Documents/Sublime Text/rincon educativo/imagenes/20.jpg") no-repeat scroll left bottom;
 	border: medium none;
 	color: #990033;
-	height: 775px;
-	width: 515px;
+	height: 800px;
+	width: 490px;
 	padding: 0 0 0 50px;
 	margin: 0 auto;
 
@@ -11,10 +11,11 @@
 	-webkit-border-radius: 20px; 
 }
 #registrousuario legend{
-	background: transparent url("D:/Documents/Sublime Text/form/imagenes/13.jpg") no-repeat scroll left top;
+	background: transparent url("D:/Documents/Sublime Text/rincon educativo/imagenes/paisaje.jpg") no-repeat scroll left top;
 	color: #6633CC;
-	font-family: arial;
+	font-family: cooper;
 	font-size: 21px;
+	text-align: center;
 	letter-spacing: -1px;
 	padding-top: 8px;
 	padding-bottom: 20;
@@ -23,7 +24,7 @@
 	-webkit-border-radius: 20px;
 }
 #registrousuario input.texto{
-	background: #FFFFFF url("D:/Documents/Sublime Text/form/imagenes/33.jpg") no-repeat scroll left top;
+	background: #FFFFFF url("D:/Documents/Sublime Text/rincon educativo/imagenes/80.jpg") no-repeat scroll left top;
 	border: medium none !important;
 	color: #666666;
 	font-family: arial,sans-serif;
@@ -39,12 +40,12 @@
 }
 #registrousuario label{
 	display: block;
-	font-family: arial,sans-serif;
+	font-family: cooper;
 	font-size: 14px;
 	padding: 10px 0 3px;
 }
 #registrousuario textarea.areadetexto{
-	background: #FFFFFF url("D:/Documents/Sublime Text/form/imagenes/80.jpg") no-repeat scroll top left;
+	background: #FFFFFF url("D:/Documents/Sublime Text/rincon educativo/imagenes/80.jpg") no-repeat scroll top left;
 	color: #666666;
 	font-family: arial,sans-serif;
 	font-size: 12px;
@@ -58,14 +59,14 @@
 	-webkit-border-radius: 20px;
 }
 #registrousuario input.botonenviar{
-	background: transparent url("D:/Documents/Sublime Text/form/imagenes/33.jpg")no-repeat scroll left top;
+	background: transparent url("D:/Documents/Sublime Text/rincon educativo/paisaje.jpg")no-repeat scroll left top;
 	color: #FFFFFF;
 	display: block;
 	float: left;
 	font-family: arial,sans-serif;
-	font-size: 12px;
+	font-size: 18px;
 	text-align: center;
-	height: 30px;
+	height: 50px;
 	width: 99px;
 	margin-left: 360px;
 	margin-top: 20px;
