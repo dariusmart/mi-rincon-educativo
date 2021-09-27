@@ -39,9 +39,9 @@
 	left: 22.5%;
 	height: 59%;
 	width: 10.5%;
-	background-color: #D9D9O9;
+	background-color: #D9D9D9;
 	color: #454545;
-	-maz-border-radius: 15px;
+	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
 }
 #menu2 li{
@@ -86,7 +86,7 @@
 	margin: 17px;
 	padding: 37px;
 	background-color: gray;
-	-maz-border-radius: 14px;
+	-moz-border-radius: 14px;
 	-webkit-border-radius: ;
 	
 }
