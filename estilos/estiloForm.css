@@ -1,5 +1,5 @@
 #registrousuario{
-	background: transparent url("D:/Documents/Sublime/rinconeducativo/imagenes/20.jpg") no-repeat scroll left bottom;
+	background: transparent url("D:/Documents/Sublime/imagenes/20.jpg") no-repeat scroll left bottom;
 	border: medium none;
 	color: #990033;
 	height: 800px;
@@ -11,7 +11,7 @@
 	-webkit-border-radius: 20px; 
 }
 #registrousuario legend{
-	background: transparent url("D:/Documents/Sublime/rinconeducativo/imagenes/paisaje.jpg") no-repeat scroll left top;
+	background: transparent url("D:/Documents/Sublime/imagenes/paisaje.jpg") no-repeat scroll left top;
 
 	color: #6633CC;
 	font-family: cooper;
@@ -25,7 +25,7 @@
 	-webkit-border-radius: 20px;
 }
 #registrousuario input.texto{
-	background: #FFFFFF url("D:/Documents/Sublime/rinconeducativo/imagenes/80.jpg") no-repeat scroll left top;
+	background: #FFFFFF url("D:/Documents/Sublimeimagenes/80.jpg") no-repeat scroll left top;
 	border: medium none !important;
 	color: #FFFFFF;
 	font-family: verdana;
@@ -46,7 +46,7 @@
 	padding: 10px 0 3px;
 }
 #registrousuario textarea.areadetexto{
-	background: #FFFFFF url("D:/Documents/Sublime/rinconeducativo/imagenes/80.jpg") no-repeat scroll top left;
+	background: #FFFFFF url("D:/Documents/Sublimeimagenes/80.jpg") no-repeat scroll top left;
 	color: #666666;
 	font-family: arial,sans-serif;
 	font-size: 12px;
@@ -60,7 +60,7 @@
 	-webkit-border-radius: 20px;
 }
 #registrousuario input.botonenviar{
-	background: transparent url("D:/Documents/Sublime/rinconeducativo/imagenes/paisaje.jpg")no-repeat scroll left top;
+	background: transparent url("D:/Documents/Sublime/imagenes/paisaje.jpg")no-repeat scroll left top;
 	color: #FFFFFF;
 	display: block;
 	float: left;
