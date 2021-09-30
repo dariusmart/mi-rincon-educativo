@@ -1,0 +1,14 @@
+body{color: #000000}
+
+a,a:link, a:visited,a:active,a:hove{color: #81C0C5;}
+
+header{background-color: #ff9900;}
+
+nav{background-color: #9aafce;}
+
+section{background-color: #19e823;}
+
+footer{
+	background-color: #CCCC00;
+	text-align: center;
+}
