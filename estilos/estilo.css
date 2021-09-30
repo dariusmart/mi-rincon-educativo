@@ -1,13 +1,4 @@
-.grande{
-	display: inherit !important;
-}
-.mediano{
-	display: inherit !important;
-}
-.mini{
-	display: inherit !important;
 
-}
 *{margin: 0; padding: 0;}
 
 
@@ -18,7 +9,6 @@ html{
 body{
 	width: 750px; 
 	height: 750px;
-	
 	margin: auto; 
 	background-color: pink;
 }
