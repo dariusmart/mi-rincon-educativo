@@ -1,5 +1,7 @@
-
-*{margin: 0; padding: 0;}
+*{
+	margin: 0; 
+	padding: 0;
+}
 
 
 html{
@@ -19,10 +21,29 @@ header{
 	background-color: yellow;
 }
 
+nav{
+	width: 750px; 
+	height: 50px; 
+	background-color: blue;
+}
+
+main{
+	width: 750px; 
+	height: 400px; 
+	background-color: green;
+}
+
+footer{
+	width: 750px; 
+	height: 50px; 
+	background-color: orange;
+}
+
 section#banner{
 	width: 500px;
 	height: 250px; 
 	float: left;
+	background-color: red;
 }
 
 section#logo{
@@ -39,23 +60,12 @@ section#login{
 	background-color: magenta;
 }
 
-nav{
-	width: 750px; 
-	height: 50px; 
-	background-color: blue;
-}
-
-main{
-	width: 750px; 
-	height: 400px; 
-	background-color: green;
-}
-
 aside#left{
 	width: 150px;
 	height: 400px; 
 	float: left; 
 	background-color: purple;
+	padding: 0px 2px 1px 7px;
 }
 
 article{
@@ -66,16 +76,8 @@ article{
 }
 
 aside#right{
-	width: 100px;
+	width: 91px;
 	height: 400px; 
 	float: left; 
 	background-color: red;
 }
-
-footer{
-	width: 750px; 
-	height: 50px; 
-	background-color: orange;
-}
-
-

@@ -2,7 +2,6 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
 	<meta charset="iso-8859-1">
 	<meta name="decription" content="ejemplo HTML5">
 	<meta name="keywords" content="HTML5, CSS3, JavaScript">
@@ -17,20 +16,31 @@
 	<header>
 		<section id="banner"><br><br>Mi rincon educativo</section>
 		<section id="logo"><center><img src="imagenes/logo3.png" height="123" width="123"></center></section>
-		<section id="login"><center></center>
+		<section id="login"><center><h3>LOGIN:</h3>
+		 <form name="iniciarsesion">
+		 <input type="text" name="usuario" placeholder="usuario"/>
+         <input type="password" name="Password" placeholder="Password"/>
+         <button type="submit" name="validar">Iniciar sesión</button></center>
 			</section>
 	</header>
-	<nav id="menu">
-		<ul id="boton">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">¿quien soy?</a></li>
-			<li><a href="#">mi empresa</a></li>
-			<li><a href="#">carrito de compras</a></li>
-			<li><a href="formulario/formulario.html">contacto</a></li>
-			<li><a href="#">mapa de sitio</a></li>
-		</ul>
+	<div class="contenedor">
+		<nav id="principal">
+			<ul id="boton">
+				<li><a href="#">Home</a>
+				<li>
+				<li><a href="#">¿quien soy?</a>
+				<li>
+				<li><a href="#">mi empresa</a>
+				<li>
+				<li><a href="#">carrito de compras</a>
+				<li>
+				<li><a href="formulario/formulario.html">contacto</a></li>
+				<li><a href="#">mapa de sitio</a>
+				<li>
+			</ul>
 		
-	</nav>
+		</nav>
+	</div>
 	<main>
 		<aside id="left">
 		<nav id="menu2">
